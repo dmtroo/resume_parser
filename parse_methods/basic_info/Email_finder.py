@@ -8,4 +8,4 @@ def find_email(text):
         if len(email) > 0:
             emails_array.append(email)
 
-    print(emails_array)
+    return emails_array

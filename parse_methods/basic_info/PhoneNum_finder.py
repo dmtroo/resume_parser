@@ -15,7 +15,7 @@ def find_number(text):
         answer = answer_question(text, "Номер телефону?")
         numbers_array.append(format_number(answer))
 
-    print(numbers_array)
+    return numbers_array
 
 
 def format_number(number):

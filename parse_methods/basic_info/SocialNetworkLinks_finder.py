@@ -10,4 +10,4 @@ def find_links(text):
         if founded_link:
             founded_links.append(founded_link.group())
 
-    print(founded_links)
+    return founded_links
